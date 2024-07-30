@@ -1,0 +1,90 @@
+body{
+    background: rgb(255, 136, 0);
+}
+.Mein{
+    width: 450px;
+    background: #ffffff;
+    padding: 50px;
+    margin: 100px auto;
+    border-radius: 30px;
+    position: relative;
+    border: solid;
+}
+.social-icon{
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    display: flex;
+}
+.social-icon div{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.social-icon div a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ff8c00;
+    font-size: 15px;
+}
+.social-icon div.home{
+    background: #ffffff;
+    border: solid;
+}
+.social-icon div.gakubu{
+    background: #ffffff;
+    border: solid;
+}
+.social-icon div.contact{
+    background: #ffffff;
+    border: solid;
+}
+img{
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+.logo img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.form, .form-item{
+    top: 20px;
+    width: 100%;
+}
+.tyui{
+    color:#adadad;
+}
+.form-item .input{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: none;
+    padding: 25px 40px;
+    box-sizing: border-box;
+    background: rgb(238,237,234);
+}
+.form-item{
+    position: relative;
+}
+.form-item .fas{
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+.btn{
+    text-align: center;
+    width: 95%;
+    background: #ff8c00;
+    border-radius: 20px;
+    padding: 10px 6px;
+    color :#faf5f0;
+    cursor: pointer;
+    margin: 10px;
+}
